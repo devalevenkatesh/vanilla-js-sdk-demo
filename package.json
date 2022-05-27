@@ -1,0 +1,26 @@
+{
+  "name": "vanilla-js-sdk-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-chime-sdk-js": "^3.3.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1144.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "uuid": "^8.3.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
